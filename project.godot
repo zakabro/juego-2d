@@ -20,6 +20,13 @@ config/icon="res://icon.svg"
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
+[layer_names]
+
+2d_physics/layer_1="Solido"
+2d_physics/layer_2="Daño"
+2d_physics/layer_3="Jugador"
+2d_physics/layer_4="Recolectable"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -27,3 +34,4 @@ window/stretch/aspect="expand"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+environment/defaults/default_clear_color=Color(0.16078432, 0.6784314, 1, 1)
