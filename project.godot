@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Juego 2D"
-run/main_scene="uid://cbey55x53fq0m"
+run/main_scene="uid://b0aylquu5s6mc"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -34,4 +34,3 @@ window/stretch/aspect="expand"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-environment/defaults/default_clear_color=Color(0.16078432, 0.6784314, 1, 1)
